@@ -7,6 +7,6 @@ module.exports = class Square extends SquareModel  {
   }
 
   charPrint (c = 'X') {
-    for (let i = 0; i < this.height; i++) { console.log('X'.repeat(this.width)); }
+    for (let i = 0; i < this.height; i++) { console.log('c'.repeat(this.width)); }
   }
 };
